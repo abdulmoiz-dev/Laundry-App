@@ -8,6 +8,7 @@ import Cards from "./Cards";
 import LeadingNetwork from "./LeadingNetwork";
 import Footer from "./Footer";
 import LastDiv from "./LastDiv";
+import Prices from "./Prices";
 const App = () => {
   return (
     <>
@@ -18,6 +19,7 @@ const App = () => {
       <Photo />
       <Cards />
       <LeadingNetwork />
+      <Prices />
       <LastDiv />
       <Footer />
     </>

@@ -1,6 +1,9 @@
 import React from "react";
 
 const BigDiv = () => {
+  const redirectToGoogle = () => {
+    window.open("https://www.google.com", "lol");
+  };
   return (
     <>
       <section className="bg-violet-600 h-auto">
@@ -17,7 +20,10 @@ const BigDiv = () => {
                 A Revolution is a compact, self-service, automatic laundry
                 equipment module also called launderette or laundromat
               </p>
-              <button className="bg-violet-600 text-white font-bold text-lg mt-20 ml-32 h-10 w-48 hover:bg-violet-800 rounded-full transition duration-300 ease-in-out -4">
+              <button
+                onClick={redirectToGoogle}
+                className="bg-violet-600 text-white font-bold text-lg mt-20 ml-32 h-10 w-48 hover:bg-violet-800 rounded-full transition duration-300 ease-in-out -4"
+              >
                 Get Started
               </button>
               <br />
